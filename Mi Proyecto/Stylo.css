@@ -1,0 +1,127 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+    width: 70px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    
+   
+}
+
+header nav ul li a:hover {
+    color: #d31919;
+    
+}
+
+
+.Logo, .Logui {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+    margin-left: -5px;
+    margin-top: -120px;
+ 
+    
+    
+}
+
+.Tienda {
+    width: 600px;
+    border-radius: 15px;
+   
+   
+}
+
+
+.categories {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-item {
+    background-color: rgb(201, 43, 43);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.category-item:hover {
+    transform: scale(1.05);
+}
+
+.category-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.category-item p {
+    font-size: 0.9em;
+    color: black;
+}
+
+/* Estilo para el iframe del mapa */
+iframe {
+    display: block;
+    margin: 30px auto;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 0.8em;
+}

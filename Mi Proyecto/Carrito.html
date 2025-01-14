@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Celulares</title>
+  <link rel="stylesheet" href="Carrito.css">
+</head>
+<body>
+  <header>
+    <h1>Yoel_Celulares</h1>
+    <div id="cart">
+      <button onclick="toggleCart()">🛒 Carrito (<span id="cart-count">0</span>)</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="products">
+      <div class="product" data-id="1" data-name="Celular X" data-price="500">
+        <img src="A24.jpg" alt="Celular X">
+        <h2>Celular X</h2>
+        <p>Precio: $6500</p>
+        <button onclick="addToCart(this)">Agregar al carrito</button>
+      </div>
+      <div class="product" data-id="2" data-name="Celular Y" data-price="750">
+        <img src="C55.webp" alt="Celular Y">
+        <h2>Celular Y</h2>
+        <p>Precio: $4350</p>
+        <button onclick="addToCart(this)">Agregar al carrito</button>
+      </div>
+      <div class="product" data-id="3" data-name="Celular Z" data-price="900">
+        <img src="samsung A35 5g.jpg" alt="Celular Z">
+        <h2>Celular Z</h2>
+        <p>Precio: $7400</p>
+        <button onclick="addToCart(this)">Agregar al carrito</button>
+      </div>
+      <div class="product" data-id="4" data-name="Celular A" data-price="1200">
+        <img src="S23.webp" alt="Celular A">
+        <h2>Celular A</h2>
+        <p>Precio: $14000</p>
+        <button onclick="addToCart(this)">Agregar al carrito</button>
+      </div>
+      <!-- Puedes seguir añadiendo más productos aquí -->
+    </section>
+  </main>
+
+  <div id="cart-modal" class="hidden">
+    <h2>Carrito de Compra</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0</span></p>
+    <button onclick="checkout()">Pagar</button>
+    <button onclick="toggleCart()">Cerrar</button>
+  </div>
+
+  <script src="Carrito.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+main form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main form label {
+    margin: 10px 0 5px;
+  }
+  
+  main form input, main form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  main form button {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  main form button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Contenedor del formulario */
+  .checkout-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Encabezado de sección */
+  .checkout-container h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos de los elementos de formulario */
+  .checkout-container label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .checkout-container input,
+  .checkout-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .checkout-container textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Botón de confirmación */
+  .checkout-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .checkout-container button:hover {
+    background-color: #218838;
+  }
+  
+  /* Resumen de compra */
+  #resumen-compra {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  #resumen-compra h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #resumen-compra p {
+    margin: 8px 0;
+    font-size: 0.95em;
+  }
+  
